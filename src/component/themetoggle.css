@@ -12,13 +12,13 @@ Global Styles
 .dark-theme {
   --clr-bcg: #282c35;
   --clr-font: #fff;
-  --clr-primary: #ffa7c4;
+  --clr-primary: #fff;
 }
 
 .light-theme {
   --clr-bcg: #fff;
   --clr-font: #282c35;
-  --clr-primary: #d23669;
+  --clr-primary: #282c35;
 }
 
 *,
@@ -54,12 +54,9 @@ Navbar
   align-items: center;
   padding: 2rem 0;
 }
-.nav-center h1 {
-  font-size: 2.5rem;
-  text-transform: capitalize;
-  letter-spacing: 2px;
+.form-input {
+  color: var(--clr-font);
 }
-
 .btn {
   background: var(--clr-primary);
   color: var(--clr-bcg);
