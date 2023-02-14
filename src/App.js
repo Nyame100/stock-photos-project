@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
 import Photo from "./Photo";
+import ThemeToggle from "./component/ThemeToggle";
 // const clientID = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`
 
 const clientID = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`;
@@ -87,6 +88,7 @@ function App() {
 
   return (
     <main>
+      <ThemeToggle />
       <section className="search">
         <form className="search-form">
           <input
