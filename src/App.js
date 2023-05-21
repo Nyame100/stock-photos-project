@@ -88,6 +88,7 @@ function App() {
 
   return (
     <main>
+      <h1 className="heading">Stock Photos</h1>
       <ThemeToggle />
       <section className="search">
         <form className="search-form">

@@ -95,6 +95,14 @@ h4 {
 p {
   margin-bottom: 1.25rem;
 }
+.heading {
+  position: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  /* margin-left: 10rem; */
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3rem;
@@ -138,6 +146,14 @@ p {
 Stock Photos
 ===============
 */
+/* .header {
+  position: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 10rem;
+} */
 .search {
   padding: 5rem 0 0 0;
   width: 90vw;
